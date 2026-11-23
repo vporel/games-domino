@@ -1,0 +1,280 @@
+{
+  "node": {
+    "007dbdf1b2967f1a53224ea765d57ec0b91f248df8": {
+      "workers": {
+        "app/page": {
+          "moduleId": "23112",
+          "async": false,
+          "exportedName": "logout",
+          "filename": "src/app/actions/auth.ts"
+        },
+        "app/room/[code]/page": {
+          "moduleId": "73188",
+          "async": false,
+          "exportedName": "logout",
+          "filename": "src/app/actions/auth.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc",
+        "app/room/[code]/page": "rsc"
+      },
+      "filename": "src/app/actions/auth.ts",
+      "exportedName": "logout"
+    },
+    "6004f36db27cdbbcd9fdbf455c63c0e5475f63e23e": {
+      "workers": {
+        "app/login/page": {
+          "moduleId": "22746",
+          "async": false,
+          "exportedName": "register",
+          "filename": "src/app/actions/auth.ts"
+        },
+        "app/page": {
+          "moduleId": "23112",
+          "async": false,
+          "exportedName": "register",
+          "filename": "src/app/actions/auth.ts"
+        },
+        "app/register/page": {
+          "moduleId": "79364",
+          "async": false,
+          "exportedName": "register",
+          "filename": "src/app/actions/auth.ts"
+        },
+        "app/room/[code]/page": {
+          "moduleId": "73188",
+          "async": false,
+          "exportedName": "register",
+          "filename": "src/app/actions/auth.ts"
+        }
+      },
+      "layer": {
+        "app/login/page": "action-browser",
+        "app/page": "rsc",
+        "app/register/page": "action-browser",
+        "app/room/[code]/page": "rsc"
+      },
+      "filename": "src/app/actions/auth.ts",
+      "exportedName": "register"
+    },
+    "60db9a0cc84a0fc29f0a782eeaf5c14f9357eac0e6": {
+      "workers": {
+        "app/login/page": {
+          "moduleId": "22746",
+          "async": false,
+          "exportedName": "login",
+          "filename": "src/app/actions/auth.ts"
+        },
+        "app/page": {
+          "moduleId": "23112",
+          "async": false,
+          "exportedName": "login",
+          "filename": "src/app/actions/auth.ts"
+        },
+        "app/register/page": {
+          "moduleId": "79364",
+          "async": false,
+          "exportedName": "login",
+          "filename": "src/app/actions/auth.ts"
+        },
+        "app/room/[code]/page": {
+          "moduleId": "73188",
+          "async": false,
+          "exportedName": "login",
+          "filename": "src/app/actions/auth.ts"
+        }
+      },
+      "layer": {
+        "app/login/page": "action-browser",
+        "app/page": "rsc",
+        "app/register/page": "action-browser",
+        "app/room/[code]/page": "rsc"
+      },
+      "filename": "src/app/actions/auth.ts",
+      "exportedName": "login"
+    },
+    "002604726649072d4ff0b53aa6e8857cd720265fab": {
+      "workers": {
+        "app/page": {
+          "moduleId": "23112",
+          "async": false,
+          "exportedName": "createRoom",
+          "filename": "src/app/actions/room.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "src/app/actions/room.ts",
+      "exportedName": "createRoom"
+    },
+    "6088553b8dd602f65c34a51188efa479319148fd76": {
+      "workers": {
+        "app/page": {
+          "moduleId": "23112",
+          "async": false,
+          "exportedName": "joinRoom",
+          "filename": "src/app/actions/room.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "src/app/actions/room.ts",
+      "exportedName": "joinRoom"
+    },
+    "60358d302edd9c0d41680d201c73797d17f6c45caf": {
+      "workers": {
+        "app/room/[code]/page": {
+          "moduleId": "73188",
+          "async": false,
+          "exportedName": "drawDomino",
+          "filename": "src/app/actions/room.ts"
+        }
+      },
+      "layer": {
+        "app/room/[code]/page": "action-browser"
+      },
+      "filename": "src/app/actions/room.ts",
+      "exportedName": "drawDomino"
+    },
+    "60d488bf795e8fa9ff5f0a67e1bcf3a9b9d3108849": {
+      "workers": {
+        "app/room/[code]/page": {
+          "moduleId": "73188",
+          "async": false,
+          "exportedName": "expireTurn",
+          "filename": "src/app/actions/room.ts"
+        }
+      },
+      "layer": {
+        "app/room/[code]/page": "action-browser"
+      },
+      "filename": "src/app/actions/room.ts",
+      "exportedName": "expireTurn"
+    },
+    "4083165ea854bb11437472f5dcb7b9c2e161bbffcd": {
+      "workers": {
+        "app/room/[code]/page": {
+          "moduleId": "73188",
+          "async": false,
+          "exportedName": "joinRoomByCode",
+          "filename": "src/app/actions/room.ts"
+        }
+      },
+      "layer": {
+        "app/room/[code]/page": "action-browser"
+      },
+      "filename": "src/app/actions/room.ts",
+      "exportedName": "joinRoomByCode"
+    },
+    "602f7a239e3e12904ba3d43cfafd64fe375f43111e": {
+      "workers": {
+        "app/room/[code]/page": {
+          "moduleId": "73188",
+          "async": false,
+          "exportedName": "kickPlayer",
+          "filename": "src/app/actions/room.ts"
+        }
+      },
+      "layer": {
+        "app/room/[code]/page": "action-browser"
+      },
+      "filename": "src/app/actions/room.ts",
+      "exportedName": "kickPlayer"
+    },
+    "40d0eba90a775e7eaeea090bf887e9cf13863ef2b8": {
+      "workers": {
+        "app/room/[code]/page": {
+          "moduleId": "73188",
+          "async": false,
+          "exportedName": "leaveRoom",
+          "filename": "src/app/actions/room.ts"
+        }
+      },
+      "layer": {
+        "app/room/[code]/page": "action-browser"
+      },
+      "filename": "src/app/actions/room.ts",
+      "exportedName": "leaveRoom"
+    },
+    "78c9d20a61752175aabdafe0f0d03011c3f77627a7": {
+      "workers": {
+        "app/room/[code]/page": {
+          "moduleId": "73188",
+          "async": false,
+          "exportedName": "playDomino",
+          "filename": "src/app/actions/room.ts"
+        }
+      },
+      "layer": {
+        "app/room/[code]/page": "action-browser"
+      },
+      "filename": "src/app/actions/room.ts",
+      "exportedName": "playDomino"
+    },
+    "402408eb75e00dbc50f3365a9d48347b70a71e544f": {
+      "workers": {
+        "app/room/[code]/page": {
+          "moduleId": "73188",
+          "async": false,
+          "exportedName": "rematch",
+          "filename": "src/app/actions/room.ts"
+        }
+      },
+      "layer": {
+        "app/room/[code]/page": "action-browser"
+      },
+      "filename": "src/app/actions/room.ts",
+      "exportedName": "rematch"
+    },
+    "40cefcf60a882b0b4ee0ba4702be1b6677cd4c4421": {
+      "workers": {
+        "app/room/[code]/page": {
+          "moduleId": "73188",
+          "async": false,
+          "exportedName": "startGame",
+          "filename": "src/app/actions/room.ts"
+        }
+      },
+      "layer": {
+        "app/room/[code]/page": "action-browser"
+      },
+      "filename": "src/app/actions/room.ts",
+      "exportedName": "startGame"
+    },
+    "40e532e1c686c5b0892485f747c3314436112d6047": {
+      "workers": {
+        "app/room/[code]/page": {
+          "moduleId": "73188",
+          "async": false,
+          "exportedName": "getMyHand",
+          "filename": "src/app/actions/room.ts"
+        }
+      },
+      "layer": {
+        "app/room/[code]/page": "action-browser"
+      },
+      "filename": "src/app/actions/room.ts",
+      "exportedName": "getMyHand"
+    },
+    "40431168c167f560e02374e3597d58f127aa7faa6c": {
+      "workers": {
+        "app/room/[code]/page": {
+          "moduleId": "73188",
+          "async": false,
+          "exportedName": "getRoomSnapshot",
+          "filename": "src/app/actions/room.ts"
+        }
+      },
+      "layer": {
+        "app/room/[code]/page": "action-browser"
+      },
+      "filename": "src/app/actions/room.ts",
+      "exportedName": "getRoomSnapshot"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "FkDkynwQbgHxRlwJsvDhkbZd59+YT7hSJ/reKdfC2aI="
+}
