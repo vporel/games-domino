@@ -1,6 +1,6 @@
 # Domino
 
-Dominos multijoueur en ligne (2 à 4 joueurs) : Next.js 15 (App Router) + Supabase (Auth, Postgres, Realtime). Projet jumeau de Ludo (`../ludo`) : même pile, même design.
+Dominos multijoueur en ligne (2 à 4 joueurs) : Next.js 15 (App Router) + Supabase (Auth, Postgres, Realtime).
 
 - Inscription et connexion **par pseudo uniquement**. Les comptes sont **communs avec Ludo** : un joueur de Ludo se connecte au Domino avec le même pseudo.
 - Un joueur crée une salle et reçoit un **code à 6 chiffres** (ou un lien `/room/<code>`) à partager.
@@ -22,11 +22,11 @@ Sans Supabase, le bac à sable http://localhost:3002/domino/dev permet de jouer 
 
 ### Variables d'environnement (`.env.local`)
 
-| Variable | Rôle |
-| --- | --- |
-| `NEXT_PUBLIC_SUPABASE_URL` | URL du projet Supabase (le même que Cloverly et Ludo) |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Clé `anon` |
-| `SUPABASE_SERVICE_ROLE_KEY` | Clé `service_role` (serveur uniquement) |
+| Variable                        | Rôle                                                  |
+| ------------------------------- | ----------------------------------------------------- |
+| `NEXT_PUBLIC_SUPABASE_URL`      | URL du projet Supabase (le même que Cloverly et Ludo) |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Clé `anon`                                            |
+| `SUPABASE_SERVICE_ROLE_KEY`     | Clé `service_role` (serveur uniquement)               |
 
 ### Supabase
 
@@ -62,4 +62,5 @@ supabase/migrations  schéma, RLS (lecture membres uniquement, état secret illi
 - `npm test` : tests unitaires (Vitest)
 - `npm run lint`
 - `npm run build` : build de production (sortie « standalone », lancé aussi par le workflow de déploiement GitHub)
+
 # games-domino
